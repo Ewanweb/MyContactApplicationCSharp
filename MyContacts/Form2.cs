@@ -15,6 +15,7 @@ namespace MyContacts
     public partial class AddOrEdit : Form
     {
         IContactsRepository repository;
+        public int contactId = 0;
         public AddOrEdit()
         {
             InitializeComponent();
@@ -28,7 +29,22 @@ namespace MyContacts
 
         private void AddOrEdit_Load(object sender, EventArgs e)
         {
-            this.Text = "افزودن شخص جدید";
+            if (contactId == 0)
+            {
+                this.Text = "افزودن شخص جدید";
+            }
+            else
+            {
+                this.Text = "ویرایش شخص";
+                DataTable dt = repository.SelectRow(contactId);
+                txtName.Text = dt.Rows[0][1].ToString();
+                txtFamily.Text = dt.Rows[0][2].ToString();
+                txtEmail.Text = dt.Rows[0][3].ToString();
+                txtMobile.Text = dt.Rows[0][4].ToString();
+                txtAge.Text = dt.Rows[0][5].ToString();
+                txtAddress.Text = dt.Rows[0][6].ToString();
+                btnSubmit.Text = "ویرایش";
+            }
         }
 
         bool validateInputs()
@@ -74,25 +90,41 @@ namespace MyContacts
             if (validateInputs())
             {
                 int age;
-                if (!int.TryParse(txtAge.Text, out age))
+                bool isSuccess;
+                if (contactId == 0)
                 {
-                    MessageBox.Show("سن وارد شده معتبر نیست", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
+                    if (GetValue(out age)) return;
+                    isSuccess = repository.Insert(txtName.Text, txtFamily.Text, txtMobile.Text, txtEmail.Text, age, txtAddress.Text);
                 }
-                bool isSuccess = repository.Insert(txtName.Text, txtFamily.Text, txtMobile.Text, txtEmail.Text, age, txtAddress.Text);
-               if (isSuccess == true)
-               {
-                   MessageBox.Show("عملیات با موفقیت انجام شد", "اضافه شد", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                   DialogResult = DialogResult.OK;
-               }
-               else
-               {
-                   MessageBox.Show("عملیات شکست خورد", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else
+                {
+                    if (GetValue(out age)) return;
+                    isSuccess = repository.Update(contactId, txtName.Text, txtFamily.Text, txtMobile.Text, txtEmail.Text, age, txtAddress.Text);
+                }
+                if (isSuccess == true)
+                {
+                    MessageBox.Show("عملیات با موفقیت انجام شد", "اضافه شد", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    DialogResult = DialogResult.OK;
+                }
+                else
+                {
+                    MessageBox.Show("عملیات شکست خورد", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 }
             }
 
 
+        }
+
+        private bool GetValue(out int age)
+        {
+            if (!int.TryParse(txtAge.Text, out age))
+            {
+                MessageBox.Show("سن وارد شده معتبر نیست", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return true;
+            }
+
+            return false;
         }
     }
 }

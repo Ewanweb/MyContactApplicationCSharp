@@ -41,6 +41,11 @@
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.tspInsert = new System.Windows.Forms.ToolStripButton();
             this.tsbUpdate = new System.Windows.Forms.ToolStripButton();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.grbSearch.SuspendLayout();
             this.grbList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgContact)).BeginInit();
             this.toolStrip2.SuspendLayout();
@@ -48,6 +53,8 @@
             // 
             // grbSearch
             // 
+            this.grbSearch.Controls.Add(this.txtSearch);
+            this.grbSearch.Controls.Add(this.label1);
             this.grbSearch.Location = new System.Drawing.Point(6, 26);
             this.grbSearch.Name = "grbSearch";
             this.grbSearch.Size = new System.Drawing.Size(664, 100);
@@ -57,6 +64,7 @@
             // 
             // grbList
             // 
+            this.grbList.Controls.Add(this.btnUpdate);
             this.grbList.Controls.Add(this.dgContact);
             this.grbList.Location = new System.Drawing.Point(9, 132);
             this.grbList.Name = "grbList";
@@ -81,7 +89,7 @@
             this.dgContact.Location = new System.Drawing.Point(3, 20);
             this.dgContact.Name = "dgContact";
             this.dgContact.ReadOnly = true;
-            this.dgContact.Size = new System.Drawing.Size(658, 342);
+            this.dgContact.Size = new System.Drawing.Size(658, 316);
             this.dgContact.TabIndex = 0;
             // 
             // ContactId
@@ -157,9 +165,47 @@
             this.tsbUpdate.Text = "بروزرسانی";
             this.tsbUpdate.Click += new System.EventHandler(this.tsbUpdate_Click);
             // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(583, 343);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.TabIndex = 1;
+            this.btnUpdate.Text = "ویرایش";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(511, 477);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.TabIndex = 2;
+            this.btnDelete.Text = "حذف";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(612, 38);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "جستجو:";
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(280, 30);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(315, 21);
+            this.txtSearch.TabIndex = 1;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(682, 512);
+            this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.toolStrip2);
             this.Controls.Add(this.grbList);
             this.Controls.Add(this.grbSearch);
@@ -169,6 +215,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "دفترچه مخاطبین";
             this.Load += new System.EventHandler(this.Form1_Load_1);
+            this.grbSearch.ResumeLayout(false);
+            this.grbSearch.PerformLayout();
             this.grbList.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgContact)).EndInit();
             this.toolStrip2.ResumeLayout(false);
@@ -204,6 +252,10 @@
         private System.Windows.Forms.ToolStrip toolStrip2;
         private System.Windows.Forms.ToolStripButton tspInsert;
         private System.Windows.Forms.ToolStripButton tsbUpdate;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtSearch;
     }
 }
 

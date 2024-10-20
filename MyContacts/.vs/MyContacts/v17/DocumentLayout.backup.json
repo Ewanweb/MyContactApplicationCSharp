@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|d:\\projects\\c#\\windows form apps\\mycontactapplicationcsharp\\mycontacts\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|d:\\projects\\c#\\windows form apps\\mycontactapplicationcsharp\\mycontacts\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|d:\\projects\\c#\\windows form apps\\mycontactapplicationcsharp\\mycontacts\\services\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|solutionrelative:services\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|d:\\projects\\c#\\windows form apps\\mycontactapplicationcsharp\\mycontacts\\repository\\icontactsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|solutionrelative:repository\\icontactsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|d:\\projects\\c#\\windows form apps\\mycontactapplicationcsharp\\mycontacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|d:\\projects\\c#\\windows form apps\\mycontactapplicationcsharp\\mycontacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\repository\\icontactsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|solutionrelative:repository\\icontactsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|d:\\projects\\c#\\windows form apps\\mycontactapplicationcsharp\\mycontacts\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3AF82EB7-DC77-44F2-8152-218676A64A58}|MyContacts.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\Services\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "Services\\ContactRepository.cs",
+              "ToolTip": "D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\Services\\ContactRepository.cs*",
+              "RelativeToolTip": "Services\\ContactRepository.cs*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T07:19:37.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form2.cs",
               "DocumentMoniker": "D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\Form2.cs",
               "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T15:07:56.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -63,28 +76,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAywC4AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T12:40:06.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContactRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\Services\\ContactRepository.cs",
-              "RelativeDocumentMoniker": "Services\\ContactRepository.cs",
-              "ToolTip": "D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\Services\\ContactRepository.cs",
-              "RelativeToolTip": "Services\\ContactRepository.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAYwDAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T12:22:55.318Z",
               "EditorCaption": ""
             },
             {
@@ -95,14 +95,14 @@
               "RelativeDocumentMoniker": "Repository\\IContactsRepository.cs",
               "ToolTip": "D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\Repository\\IContactsRepository.cs",
               "RelativeToolTip": "Repository\\IContactsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T09:18:52.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Projects\\C#\\Windows Form Apps\\MyContactApplicationCSharp\\MyContacts\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
