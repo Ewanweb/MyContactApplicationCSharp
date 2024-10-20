@@ -1,0 +1,11 @@
+D:\Projects\C#\Windows Form Apps\MyContactApplicationCSharp\MyContacts\bin\Debug\MyContacts.exe.config
+D:\Projects\C#\Windows Form Apps\MyContactApplicationCSharp\MyContacts\bin\Debug\MyContacts.exe
+D:\Projects\C#\Windows Form Apps\MyContactApplicationCSharp\MyContacts\bin\Debug\MyContacts.pdb
+D:\Projects\C#\Windows Form Apps\MyContactApplicationCSharp\MyContacts\obj\Debug\MyContacts.csproj.AssemblyReference.cache
+D:\Projects\C#\Windows Form Apps\MyContactApplicationCSharp\MyContacts\obj\Debug\MyContacts.Form1.resources
+D:\Projects\C#\Windows Form Apps\MyContactApplicationCSharp\MyContacts\obj\Debug\MyContacts.Properties.Resources.resources
+D:\Projects\C#\Windows Form Apps\MyContactApplicationCSharp\MyContacts\obj\Debug\MyContacts.csproj.GenerateResource.cache
+D:\Projects\C#\Windows Form Apps\MyContactApplicationCSharp\MyContacts\obj\Debug\MyContacts.csproj.CoreCompileInputs.cache
+D:\Projects\C#\Windows Form Apps\MyContactApplicationCSharp\MyContacts\obj\Debug\MyContacts.exe
+D:\Projects\C#\Windows Form Apps\MyContactApplicationCSharp\MyContacts\obj\Debug\MyContacts.pdb
+D:\Projects\C#\Windows Form Apps\MyContactApplicationCSharp\MyContacts\obj\Debug\MyContacts.AddOrEdit.resources
